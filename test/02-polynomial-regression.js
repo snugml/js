@@ -1,6 +1,6 @@
 import { PolynomialRegression, joinArrays } from 'https://snugml.github.io/js/ml.mjs';
 
-const model = new LinearRegression(3);
+const model = new PolynomialRegression(3);
 
 const X = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 const y = [1, 4, 1, 5, 3, 7, 2, 7, 4, 9];
