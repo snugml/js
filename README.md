@@ -26,7 +26,7 @@ const yPredict = model.predict(features);
 console.log(yPredict);
 ```
 
-## MLearnJS is continuously being developed
+## SnugML/JS is continuously being developed
 
 JSDelivr changes may be slow. To use the latest version of the model, use:
 
@@ -55,18 +55,18 @@ import { DecisionTreeClassifier} from MLJS;
 
 ## Examples
 
-[Linear Regression](test/01-linear-regression.html)
+[Linear Regression](https://snugml.github.io/js/test/01-linear-regression.html)
 
-[Polynomial Regression](test/02-polynomial-regression.html)
+[Polynomial Regression](https://snugml.github.io/js/test/02-polynomial-regression.html)
 
-[Gaussian Naive Bayes](test/03-gaussian-nb.html)
+[Gaussian Naive Bayes](https://snugml.github.io/js/test/03-gaussian-nb.html)
 
-[Decision Tree](test/04-decision-tree.html)
+[Decision Tree](https://snugml.github.io/js/test/04-decision-tree.html)
 
-[MLP Classifier Logic Gates ](test/05-mlp-classifier.html)
+[MLP Classifier Logic Gates ](https://snugml.github.io/js/test/05-mlp-classifier.html)
 
-[MLP Classifier](test/06-mlp-classifier.html)
+[MLP Classifier](https://snugml.github.io/js/test/06-mlp-classifier.html)
 
-[KMeans Cluster Classifier](test/07-kmeans-classifier.html)
+[KMeans Cluster Classifier](https://snugml.github.io/js/test/07-kmeans-classifier.html)
 
-[KNearest Neighbors Classifier](test/08-neighbors-classifier.html)
+[KNearest Neighbors Classifier](https://snugml.github.io/js/test/08-neighbors-classifier.html)
