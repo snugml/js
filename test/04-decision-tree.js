@@ -29,7 +29,7 @@ const encLab = encoder.fitTransform(label);
 
 const features = encOut.map((_, i) => [encOut[i], encTem[i], encHum[i], encWin[i]]);
     
-const model = new DecisionTree();
+const model = new DecisionTreeClassifier();
 model.fit(features, encLab);
 
 const encYPredict = model.predict(features)
