@@ -7,7 +7,7 @@ const y = [1, 4, 1, 5, 3, 7, 2, 7, 4, 9];
 
 model.fit(X, y);
 
-yPredict = model.predict(X)
+const yPredict = model.predict(X)
 //console.log(yPredict);
 
 const arr = joinArrays('x', X, 'y', y, 'yPredict', yPredict);
